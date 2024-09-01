@@ -1,0 +1,40 @@
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Configure stats pid to 889
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Loading settings from /root/.config/wandb/settings
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Loading settings from /root/autodl-tmp/wandb/settings
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_init.py:_log_setup():524] Logging user logs to /root/autodl-tmp/wandb/run-20240829_131531-thm55bcu/logs/debug.log
+2024-08-29 13:15:31,617 INFO    MainThread:889 [wandb_init.py:_log_setup():525] Logging internal logs to /root/autodl-tmp/wandb/run-20240829_131531-thm55bcu/logs/debug-internal.log
+2024-08-29 13:15:31,618 INFO    MainThread:889 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f5cd824eb60>
+2024-08-29 13:15:31,618 INFO    MainThread:889 [wandb_init.py:init():607] calling init triggers
+2024-08-29 13:15:31,618 INFO    MainThread:889 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-29 13:15:31,618 INFO    MainThread:889 [wandb_init.py:init():657] starting backend
+2024-08-29 13:15:31,618 INFO    MainThread:889 [wandb_init.py:init():661] setting up manager
+2024-08-29 13:15:31,619 INFO    MainThread:889 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-29 13:15:31,621 INFO    MainThread:889 [wandb_init.py:init():669] backend started and connected
+2024-08-29 13:15:31,706 INFO    MainThread:889 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2024-08-29 13:15:31,708 INFO    MainThread:889 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-08-29 13:15:31,708 INFO    MainThread:889 [wandb_init.py:init():767] updated telemetry
+2024-08-29 13:15:31,753 INFO    MainThread:889 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-08-29 13:15:32,847 INFO    MainThread:889 [wandb_init.py:init():851] starting run threads in backend
+2024-08-29 13:15:43,612 INFO    MainThread:889 [wandb_run.py:_console_start():2463] atexit reg
+2024-08-29 13:15:43,612 INFO    MainThread:889 [wandb_run.py:_redirect():2309] redirect: wrap_raw
+2024-08-29 13:15:43,612 INFO    MainThread:889 [wandb_run.py:_redirect():2374] Wrapping output streams.
+2024-08-29 13:15:43,612 INFO    MainThread:889 [wandb_run.py:_redirect():2399] Redirects installed.
+2024-08-29 13:15:43,615 INFO    MainThread:889 [wandb_init.py:init():894] run started, returning control to user process
+2024-08-29 13:15:43,615 INFO    MainThread:889 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-29 13:15:43,615 INFO    MainThread:889 [wandb_init.py:_pause_backend():435] pausing backend
+2024-08-29 15:29:40,233 INFO    MainThread:889 [wandb_init.py:_resume_backend():440] resuming backend
+2024-08-29 15:29:40,245 INFO    MainThread:889 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-29 15:29:40,245 INFO    MainThread:889 [wandb_init.py:_pause_backend():435] pausing backend
+2024-08-29 15:29:42,838 INFO    MainThread:889 [wandb_init.py:_resume_backend():440] resuming backend
+2024-08-29 15:29:42,841 INFO    MainThread:889 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-29 15:29:42,841 INFO    MainThread:889 [wandb_init.py:_pause_backend():435] pausing backend
+2024-08-29 15:29:45,407 INFO    MainThread:889 [wandb_init.py:_resume_backend():440] resuming backend
+2024-08-29 15:29:45,412 INFO    MainThread:889 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-08-29 15:29:45,412 INFO    MainThread:889 [wandb_init.py:_pause_backend():435] pausing backend
